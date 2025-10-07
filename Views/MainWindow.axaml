@@ -15,7 +15,7 @@
         <TextBlock/>
     </Grid>-->
     
-    <Grid Width="458" HorizontalAlignment="Center" Height="737" Background="#FF8C26EB">
+    <Grid Width="458" HorizontalAlignment="Center" Height="737" Background="DarkOrange">
         <TextBlock Text="REGISTRATE" 
                    FontSize="42" Margin="112,48,0,0" 
                    HorizontalAlignment="Left" VerticalAlignment="Top" 
@@ -29,12 +29,25 @@
                    HorizontalAlignment="Left" 
                    VerticalAlignment="Top" 
                    Height="24" Text="Nombre" Foreground="White" />
-        <TextBox Text="Introduce tu edad" Margin="88,264,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="296" Height="40" />
-        <TextBlock Text="Edad" FontSize="23" Margin="40,224,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Foreground="White" />
-        <TextBox Text="Introduce el correo" Margin="88,360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="296" Height="40" />
-        <TextBlock Text="Correo" FontSize="23" Margin="40,320,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Foreground="White" />
-        <CheckBox Content="Aceptar terminos y condiciones" Margin="120,440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="240" Height="32" Foreground="White" Background="DarkOrchid" />
-        <Button Content="Aceptar" Margin="88,512,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Height="48" FontSize="21" Background="Aqua" />
+        <TextBox Text="Introduce tu edad" Margin="88,264,0,0" 
+                 HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Width="296" Height="40" />
+        <TextBlock Text="Edad" FontSize="23" Margin="40,224,0,0" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" 
+                   Height="24" Foreground="White" />
+        <TextBox Text="Introduce el correo" Margin="88,360,0,0" 
+                 HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Width="296" Height="40" />
+        <TextBlock Text="Correo" FontSize="23" Margin="40,320,0,0" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" 
+                   Foreground="White" />
+        <CheckBox Content="Aceptar terminos y condiciones" 
+                  Margin="120,440,0,0" HorizontalAlignment="Left" 
+                  VerticalAlignment="Top" Width="240" Height="32" 
+                  Foreground="White"/>
+        <Button Content="Aceptar" Margin="88,512,0,0" 
+                HorizontalAlignment="Left" VerticalAlignment="Top" 
+                Width="112" Height="48" FontSize="21" Background="Aqua" />
         <Button Content="Cancelar" Margin="272,512,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Height="48" FontSize="21" Background="#FFE31D1D" />
         <TextBlock Text="Creado por Carlos Gomez" FontSize="15" Margin="144,704,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" FontWeight="Bold" Foreground="White" />
     </Grid>
